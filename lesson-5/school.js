@@ -1,7 +1,6 @@
 const EventEmitter = require('events');
 
-const emitter = new EventEmitter();
-class school extends EventEmitter {
+class School extends EventEmitter {
     startPeriod() {
         console.log('Class Started');
         // raise an event
@@ -13,4 +12,4 @@ class school extends EventEmitter {
         }, 2000);
     }
 }
-module.exports = school;
+module.exports = School;
